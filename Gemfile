@@ -3,13 +3,13 @@ source 'https://rubygems.org'
 ruby '2.6.3'
 
 gem 'faraday'
-gem 'html-proofer', '~> 3.0'
-gem 'jekyll', '>=3.1.6'
+gem 'html-proofer', '~> 3.15', '>= 3.15.3'
+gem 'jekyll', '>= 3.9.0'
 gem 'jekyll-paginate'
 gem 'jekyll-redirect-from'
-gem 'puma'
+gem 'puma', '>= 4.3.12'
 gem 'pry', group: :test
-gem 'rack', '~> 1.0'
+gem 'rack', '~> 3.0', '>= 3.0.0'
 gem 'rack-jekyll'
 gem 'rack-ssl-enforcer'
 gem 'rake'
@@ -19,7 +19,7 @@ gem 'rubocop', group: :test
 
 # All of this is for Slate / middleman
 
-gem "middleman", '~> 3.0'
+gem "middleman", "~> 4.4", ">= 4.4.0"
 
 # For syntax highlighting
 gem "middleman-syntax"
