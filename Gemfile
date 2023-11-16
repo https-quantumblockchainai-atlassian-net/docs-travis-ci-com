@@ -3,11 +3,11 @@ source 'https://rubygems.org'
 ruby '2.6.3'
 
 gem 'faraday'
-gem 'html-proofer', '~> 3.0'
+gem 'html-proofer', '~> 3.16', '>= 3.16.0'
 gem 'jekyll', '>=3.1.6'
 gem 'jekyll-paginate'
 gem 'jekyll-redirect-from'
-gem 'puma'
+gem 'puma', '>= 5.6.7'
 gem 'pry', group: :test
 gem 'rack', '~> 1.0'
 gem 'rack-jekyll'
@@ -19,16 +19,16 @@ gem 'rubocop', group: :test
 
 # All of this is for Slate / middleman
 
-gem "middleman", '~> 3.0'
+gem "middleman", "~> 4.4", ">= 4.4.0"
 
 # For syntax highlighting
-gem "middleman-syntax"
+gem "middleman-syntax", ">= 3.3.0"
 
 # Plugin for middleman to generate GitHub pages
 gem 'middleman-gh-pages'
 
 # Live-reloading plugin
-gem "middleman-livereload"
+gem "middleman-livereload", ">= 3.4.7"
 
 # Needed for Slate / middleman
 gem 'redcarpet'
